@@ -2,6 +2,8 @@
    constructor(name, startDate) {
      this.name = name;
      this.startDate = new Date(startDate);
-    //  this.yearsExperienceFromBeginningOf =
+   }
+   yearsExperienceFromBeginningOf(year) {
+     return this.startDate.getFullYear() - year;
    }
  }
