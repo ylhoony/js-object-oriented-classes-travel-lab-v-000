@@ -1,6 +1,6 @@
  class Driver {
    constructor(name, startDate) {
      this.name = name;
-     this.startDate = Date.parse(startDate);
+     this.startDate = IPOdate.setTime(Date.parse(startDate));
    }
  }
