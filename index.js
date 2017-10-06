@@ -20,6 +20,6 @@ class Route {
     return horizontalBlocksTravelled + verticalBlocksTravelled;
   }
   estimatedTime(isPeakhour) {
-    return isPeakhour ? horizontalBlocksTravelled()/3*2 : horizontalBlocksTravelled()/3;
+    return isPeakhour ? horizontalBlocksTravelled()/2 : horizontalBlocksTravelled()/3;
   }
 }
